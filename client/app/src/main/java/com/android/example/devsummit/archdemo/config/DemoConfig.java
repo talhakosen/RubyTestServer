@@ -51,7 +51,7 @@ public class DemoConfig {
     }
 
     public String getApiUrl() {
-        return mSharedPreferences.getString(KEY_API_URL, "http://10.0.2.2:3000");
+        return mSharedPreferences.getString(KEY_API_URL, "https://dry-everglades-5488.herokuapp.com");
     }
 
     public void setApiUrl(String url) {
